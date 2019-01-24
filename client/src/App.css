@@ -1,0 +1,126 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.loader{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+  border: #282c34;
+}
+.listContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+  background-image: url('https://camo.githubusercontent.com/3d3eed6569668e3dab7934f65f52a500c53cbc62/687474703a2f2f692e696d6775722e636f6d2f545269454863332e706e67');
+  background-size: fit;
+  overflow: hidden;
+  border: #282c34;
+}
+.list{
+  background-color: rgb(135, 187, 233);
+  margin-top: 6%;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+.root{
+  border: #282c34;
+  background-color: #c5d9e9
+}
+
+.toolbar {
+  position: fixed;
+  top:2%;
+  left:0;
+  width: 100%;
+  background: #2342ee;
+  height: 56px;
+}
+
+.toolbar_logo a
+{
+  color:white;
+  text-decoration:none;
+  font-size:1.5rem;
+}
+
+.toolbar_navigation-items ul{
+  list-style: none;
+  margin: 0;
+  padding:0;
+  display: flex;
+}
+
+.toolbar_navigation-items li {
+  padding:0 1rem;
+}
+
+.logoimg
+{
+  margin-top: 6px;
+  height: 50px;
+  width: 50px;
+}
+
+.spacer
+{
+  flex: 1;  
+}
+
+.toolbar_logo{
+  margin-left: 2%;
+}
+
+.toolbar_navigation
+{
+  display: flex;
+  height: 100%;
+  align-items: center;
+  padding: 0 1rem;
+}
+.toolbar_navigation-items a
+{
+  color: white;
+  text-decoration: none;
+}
+
+.toolbar_navigation-items a:hover,
+.toolbar_navigation-items a:active {
+  color: #c5d9e9;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
