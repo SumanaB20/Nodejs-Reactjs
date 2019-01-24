@@ -14,3 +14,6 @@ For reactjs
 4)coding in app.js
 5)Installed packages using npm i
 6)to run use command: npm start
+
+
+screenshot: https://github.com/SumanaB20/Nodejs-Reactjs/blob/master/screenshotJPG.JPG
