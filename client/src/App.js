@@ -20,18 +20,13 @@ class App extends Component {
 
   componentWillMount() {
     fetch(`/user`)
-      // We get the API response and receive data in JSON format...
       .then(response => response.json())
-      // ...then we update the users state
       .then(data => {
         this.setState({
           users: data,
           isLoading: false,
         })
-        //this.state.users = data
-        console.log("Hai", data)
       })
-      // Catch any errors we hit and update the app
       .catch(error => this.setState({ error, isLoading: false }));
   }
 
